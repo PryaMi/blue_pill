@@ -1,7 +1,12 @@
-!!! create "build" directory before run command "make"
 
 example from:
 
 https://microdigisoft.com/stm32-blue-pill-bare-metal-programming-led-blinking/
 
+build this project with cmake:
+
+cmake -S ./ -B build/
+cmake --build build/
+
+!!! create "build" directory before run "cmake" command 
 
